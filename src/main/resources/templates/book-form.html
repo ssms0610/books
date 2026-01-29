@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <title>도서 등록</title>
+</head>
+<body>
+<h2>도서 등록</h2>
+
+<form action="/books/add" method="post">
+    <div>
+        도서명: <input type="text" name="title">
+    </div>
+    <div>
+        가격: <input type="number" name="price">
+    </div>
+    <div>
+        배송방법: <input type="text" name="deliveryType">
+    </div>
+    <div>
+        배송비: <input type="number" name="deliveryPrice">
+    </div>
+
+    <button type="submit">등록</button>
+</form>
+</body>
+</html>
